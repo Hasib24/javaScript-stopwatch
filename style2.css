@@ -1,0 +1,70 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color:#252526 ;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+h1, p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 5px 0;
+    text-transform: uppercase;
+    color: #31F4F6;
+    font-size: 40px;
+    letter-spacing: 5px;
+    border: 1px solid;
+    font-family: 'Oswald', sans-serif;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(digital-7.ttf);
+}
+p{
+    font-family: myFirstFont;
+    color: #31F4F6;
+    font-size: 80px;
+    text-shadow: 3px 3px 10px rgba(49, 244, 246, 0.3),
+                 -3px -3px 10px rgba(49, 244, 246, 0.3);
+    border: 1px solid ;
+}
+p span{
+    width: 100px;
+    text-align: center;
+}
+#start, #pause, #reset, #min, #sec, #mm{
+    padding: 0 20px;
+    
+}
+#start, #pause, #reset{
+    margin: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    background: #576574;
+    
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3),
+                 -1px -1px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    width: 100px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 5px 15px;
+}
+#start:hover, #pause:hover, #reset:hover{
+    background: #222f3e;
+    width: 98px;
+    border: 1px solid #fff;
+}
